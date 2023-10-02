@@ -1,12 +1,14 @@
 import "./App.css";
 import Banner from "./Components/Banner";
+import Content from "./Components/Content/Content";
 import Navbar from "./Components/Navbar";
 
-function App() {
+const App = () => {
   return (
     <>
       <Navbar />
       <Banner />
+      <Content />
     </>
   );
 }
