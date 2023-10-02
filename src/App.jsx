@@ -1,8 +1,13 @@
-import './App.css';
+import "./App.css";
+import Banner from "./Components/Banner";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-  <h1>Padhakku</h1>
+    <>
+      <Navbar />
+      <Banner />
+    </>
   );
 }
 
