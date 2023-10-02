@@ -7,6 +7,7 @@
 
 .left-container{
     flex:25%;
+    
 }
 .middle-container{
     flex:50%;
@@ -16,6 +17,11 @@
 }
 .right-container{
     flex:25%;
+}
+
+.sticky-container{
+    position: sticky;
+    top: 5rem;
 }
 
 .section-heading{
@@ -31,6 +37,7 @@
     border: 1.5px solid #51E2C2;
     border-radius: 10px;
     margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
 }
 
 .video{
@@ -39,4 +46,25 @@
     width: 100%;
     height: 25rem;
     border-radius:15px ;
+}
+
+.sub-section-heading{
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.sub-section img{
+    width: 75%;
+    padding: 2rem;
+}
+
+.sub-section-content{
+    line-height: 1.75rem;
+}
+
+button{
+    padding: 0;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
 }
